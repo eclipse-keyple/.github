@@ -32,5 +32,6 @@ The project maintains the following source code repositories:
 * https://github.com/eclipse/keyple-website
 * https://github.com/eclipse/keyple-java
 * https://github.com/eclipse/keyple-cpp
+* https://github.com/eclipse/keyple-ops
 
 ## Third-party Content
