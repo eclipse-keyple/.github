@@ -2,7 +2,7 @@
 
 This content is produced and maintained by the Eclipse Keyple project.
 
-* Project home: https://github.com/eclipse/keyple
+* Project home: https://projects.eclipse.org/projects/iot.keyple
 
 ## Trademarks
 
@@ -33,5 +33,19 @@ The project maintains the following source code repositories:
 * https://github.com/eclipse/keyple-java
 * https://github.com/eclipse/keyple-cpp
 * https://github.com/eclipse/keyple-ops
+
+## Contributors
+   *   Pierre Terrée - API specification
+   *   Jean-Pierre Fortune - Keyple Java/C++: Core, Calypso, PCSC plugin and Stub plugin
+   *   Olivier Delcroix - Keyple Java: Distributed and Android plugins 
+   *   Florent Clairambault - Keyple Java: Core
+   *   Paulo Barreto - Keyple Java/C++: Integration and Demo apps
+   *   Alexandre Munsch - Keyple C++: Core, Calypso and Plugins
+   *   Philippe Illinger - Keyple C++: Unitary Tests
+   *   Meddy Menzikoff - Keyple Java: Android plugins and Examples
+   *   Andrei Cristea - Keyple Java: Core, Distributed and Calypso
+   *   Youssef Amrani - Keyple Java: Android plugins and Demo apps
+   *   Brice Ruppen - DevOps
+   *   Ludovic Teixeira Costa - Keyple website     
 
 ## Third-party Content
