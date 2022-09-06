@@ -9,92 +9,123 @@ More information can be found on [keyple.org](http://keyple.org).
 -   Continuous Integration:
     -   CI configuration [https://github.com/eclipse/keyple-ops/](https://github.com/eclipse/keyple-ops/)
     -   Integration test [https://github.com/eclipse/keyple-integration-java-test](https://github.com/eclipse/keyple-integration-java-test)
--   Implementation examples: [https://github.com/eclipse/keyple-java-example](https://github.com/eclipse/keyple-java-example)
--   Java components:
-    -   until version 1.0.0, single repository [https://github.com/eclipse/keyple-java](https://github.com/eclipse/keyple-java) (archived repository)
-    -   from version 2.0.0, several repositories: status on [https://keyple.org/repositories-dashboard/](https://keyple.org/repositories-dashboard/)
-        -   external standardized Calypso Terminal API:
-            -   **Reader API**
-                -   code [https://github.com/calypsonet/calypsonet-terminal-reader-java-api](https://github.com/calypsonet/calypsonet-terminal-reader-java-api)
-                -   doc [https://calypsonet.github.io/calypsonet-terminal-reader-java-api/](https://calypsonet.github.io/calypsonet-terminal-reader-java-api/)
-            -   Card API
-                -   code [https://github.com/calypsonet/calypsonet-terminal-card-java-api](https://github.com/calypsonet/calypsonet-terminal-card-java-api)
-                -   doc [https://calypsonet.github.io/calypsonet-terminal-card-java-api/](https://calypsonet.github.io/calypsonet-terminal-card-java-api/)
-            -   **Calypso API**
-                -   code [https://github.com/calypsonet/calypsonet-terminal-calypso-java-api](https://github.com/calypsonet/calypsonet-terminal-calypso-java-api) (main API for Calypso terminal application impementation)
-                -   doc [https://calypsonet.github.io/calypsonet-terminal-calypso-java-api/](https://calypsonet.github.io/calypsonet-terminal-calypso-java-api/)
+-   Implementation examples:
+    -   for Java [https://github.com/eclipse/keyple-java-example](https://github.com/eclipse/keyple-java-example)
+    -   for C++ [https://github.com/eclipse/keyple-cpp-example](https://github.com/eclipse/keyple-cpp-example)
+-   Meta scripts to download & build Keyple C++ components [https://github.com/eclipse/keyple-cpp-meta](https://github.com/eclipse/keyple-cpp-meta)
+-   Components from version 2.x (several repositories: status on [https://keyple.org/repositories-dashboard/](https://keyple.org/repositories-dashboard/)):
+    -   external standardized Calypso Terminal API:
+        -   **Reader API**
+            -   info [https://terminal-api.calypsonet.org/apis/calypsonet-terminal-reader-api/](https://terminal-api.calypsonet.org/apis/calypsonet-terminal-reader-api/)
+            -   Java doc [https://calypsonet.github.io/calypsonet-terminal-reader-java-api/](https://calypsonet.github.io/calypsonet-terminal-reader-java-api/)
+            -   Java code [https://github.com/calypsonet/calypsonet-terminal-reader-java-api](https://github.com/calypsonet/calypsonet-terminal-reader-java-api)
+            -   C++ doc [https://calypsonet.github.io/calypsonet-terminal-reader-cpp-api/](https://calypsonet.github.io/calypsonet-terminal-reader-cpp-api/)
+            -   C++ code [https://github.com/calypsonet/calypsonet-terminal-reader-cpp-api](https://github.com/calypsonet/calypsonet-terminal-reader-cpp-api)
+        -   Card API
+            -   info [https://terminal-api.calypsonet.org/apis/calypsonet-terminal-card-api/](https://terminal-api.calypsonet.org/apis/calypsonet-terminal-card-api/)
+            -   Java doc [https://calypsonet.github.io/calypsonet-terminal-card-java-api/](https://calypsonet.github.io/calypsonet-terminal-card-java-api/)
+            -   Java code [https://github.com/calypsonet/calypsonet-terminal-card-java-api](https://github.com/calypsonet/calypsonet-terminal-card-java-api)
+            -   C++ doc [https://calypsonet.github.io/calypsonet-terminal-card-cpp-api/](https://calypsonet.github.io/calypsonet-terminal-card-cpp-api/)
+            -   C++ code [https://github.com/calypsonet/calypsonet-terminal-card-cpp-api](https://github.com/calypsonet/calypsonet-terminal-card-cpp-api)
+        -   **Calypso API** (the main API for Calypso terminal application implementation)
+            -   info [https://terminal-api.calypsonet.org/apis/calypsonet-terminal-calypso-api/](https://terminal-api.calypsonet.org/apis/calypsonet-terminal-calypso-api/)
+            -   Java doc [https://calypsonet.github.io/calypsonet-terminal-calypso-java-api/](https://calypsonet.github.io/calypsonet-terminal-calypso-java-api/)
+            -   Java code [https://github.com/calypsonet/calypsonet-terminal-calypso-java-api](https://github.com/calypsonet/calypsonet-terminal-calypso-java-api) (main API for Calypso terminal application impementation)
+            -   C++ doc [https://calypsonet.github.io/calypsonet-terminal-calypso-cpp-api/](https://calypsonet.github.io/calypsonet-terminal-calypso-cpp-api/)
+            -   C++ code [https://github.com/calypsonet/calypsonet-terminal-calypso-cpp-api](https://github.com/calypsonet/calypsonet-terminal-calypso-cpp-api)
         -   Core components:
             -   **Keyple Service** (service implementing Reader API & Card API)
-                -   code [https://github.com/eclipse/keyple-service-java-lib](https://github.com/eclipse/keyple-service-java-lib)
-                -   doc [https://eclipse.github.io/keyple-service-java-lib/](https://eclipse.github.io/keyple-service-java-lib/)
                 -   info [https://keyple.org/components-java/core/keyple-service-java-lib/](https://keyple.org/components-java/core/keyple-service-java-lib/)
+                -   Java doc [https://eclipse.github.io/keyple-service-java-lib/](https://eclipse.github.io/keyple-service-java-lib/)
+                -   Java code [https://github.com/eclipse/keyple-service-java-lib](https://github.com/eclipse/keyple-service-java-lib)
+                -   C++ doc [https://eclipse.github.io/keyple-service-cpp-lib/](https://eclipse.github.io/keyple-service-cpp-lib/)
+                -   C++ code [https://github.com/eclipse/keyple-service-cpp-lib](https://github.com/eclipse/keyple-service-cpp-lib)
             -   Plugin SPI (for pluging implementation)
-                -   code [https://github.com/eclipse/keyple-plugin-java-api](https://github.com/eclipse/keyple-plugin-java-api)
-                -   doc [https://eclipse.github.io/keyple-plugin-java-api/](https://eclipse.github.io/keyple-plugin-java-api/)
                 -   info [https://keyple.org/components-java/core/keyple-plugin-java-api/](https://keyple.org/components-java/core/keyple-plugin-java-api/)
+                -   Java doc [https://eclipse.github.io/keyple-plugin-java-api/](https://eclipse.github.io/keyple-plugin-java-api/)
+                -   Java code [https://github.com/eclipse/keyple-plugin-java-api](https://github.com/eclipse/keyple-plugin-java-api)
+                -   C++ doc [https://eclipse.github.io/keyple-plugin-cpp-api/](https://eclipse.github.io/keyple-plugin-cpp-api/)
+                -   C++ code [https://github.com/eclipse/keyple-plugin-cpp-api](https://github.com/eclipse/keyple-plugin-cpp-api)
             -   Utility
                 -   Keyple shared reference
-                    -   code [https://github.com/eclipse/keyple-common-java-api](https://github.com/eclipse/keyple-common-java-api)
-                    -   doc [https://eclipse.github.io/keyple-common-java-api/](https://eclipse.github.io/keyple-common-java-api/)
                     -   info [https://keyple.org/components-java/core/keyple-common-java-api/](https://keyple.org/components-java/core/keyple-common-java-api/)
+                    -   Java doc [https://eclipse.github.io/keyple-common-java-api/](https://eclipse.github.io/keyple-common-java-api/)
+                    -   Java code [https://github.com/eclipse/keyple-common-java-api](https://github.com/eclipse/keyple-common-java-api)
+                    -   C++ doc [https://eclipse.github.io/keyple-common-cpp-api/](https://eclipse.github.io/keyple-common-cpp-api/)
+                    -   C++ code [https://github.com/eclipse/keyple-common-cpp-api](https://github.com/eclipse/keyple-common-cpp-api)
                 -   Helper functions
-                    -   code [https://github.com/eclipse/keyple-util-java-lib](https://github.com/eclipse/keyple-util-java-lib)
-                    -   doc [https://eclipse.github.io/keyple-util-java-lib/](https://eclipse.github.io/keyple-util-java-lib/)
                     -   info [https://keyple.org/components-java/core/keyple-util-java-lib/](https://keyple.org/components-java/core/keyple-util-java-lib/)
+                    -   Java doc [https://eclipse.github.io/keyple-util-java-lib/](https://eclipse.github.io/keyple-util-java-lib/)
+                    -   Java code [https://github.com/eclipse/keyple-util-java-lib](https://github.com/eclipse/keyple-util-java-lib)
+                    -   C++ doc [https://eclipse.github.io/keyple-util-cpp-lib/](https://eclipse.github.io/keyple-util-cpp-lib/)
+                    -   C++ code [https://github.com/eclipse/keyple-util-cpp-lib](https://github.com/eclipse/keyple-util-cpp-lib)
         -   Card resource manager extension
-            -   code [https://github.com/eclipse/keyple-service-resource-java-lib](https://github.com/eclipse/keyple-service-resource-java-lib)
-            -   doc [https://eclipse.github.io/keyple-service-resource-java-lib/](https://eclipse.github.io/keyple-service-resource-java-lib/)
             -   info [https://keyple.org/components-java/core/keyple-service-resource-java-lib/](https://keyple.org/components-java/core/keyple-service-resource-java-lib/)
-        -   Distributed module (for remote card readers):
+            -   Java doc [https://eclipse.github.io/keyple-service-resource-java-lib/](https://eclipse.github.io/keyple-service-resource-java-lib/)
+            -   Java code [https://github.com/eclipse/keyple-service-resource-java-lib](https://github.com/eclipse/keyple-service-resource-java-lib)
+            -   C++ doc [https://eclipse.github.io/keyple-service-resource-cpp-lib/](https://eclipse.github.io/keyple-service-resource-cpp-lib/)
+            -   C++ code [https://github.com/eclipse/keyple-service-resource-cpp-lib](https://github.com/eclipse/keyple-service-resource-cpp-lib)
+        -   Distributed module (for remote card readers): not yet available in C++
             -   for terminal operating a remote reader
-                -   lib
-                    -   code [https://github.com/eclipse/keyple-distributed-remote-java-lib](https://github.com/eclipse/keyple-distributed-remote-java-lib)
-                    -   doc [https://eclipse.github.io/keyple-distributed-remote-java-lib/](https://eclipse.github.io/keyple-distributed-remote-java-lib/)
-                -   API
-                    -   code [https://github.com/eclipse/keyple-distributed-remote-java-api](https://github.com/eclipse/keyple-distributed-remote-java-api)
-                    -   doc [https://eclipse.github.io/keyple-distributed-remote-java-api/](https://eclipse.github.io/keyple-distributed-remote-java-api/)
                 -   info [https://keyple.org/components-java/distributed/keyple-distributed-remote-java-lib/](https://keyple.org/components-java/distributed/keyple-distributed-remote-java-lib/)
-            -   for terminal interfaced with a local reader
-                -   lib
-                    -   code [https://github.com/eclipse/keyple-distributed-local-java-lib](https://github.com/eclipse/keyple-distributed-local-java-lib)
-                    -   doc [https://eclipse.github.io/keyple-distributed-local-java-lib/](https://eclipse.github.io/keyple-distributed-local-java-lib/)
                 -   API
-                    -   code [https://github.com/eclipse/keyple-distributed-local-java-api](https://github.com/eclipse/keyple-distributed-local-java-api)
-                    -   doc [https://eclipse.github.io/keyple-distributed-local-java-api/](https://eclipse.github.io/keyple-distributed-local-java-api/)
+                    -   Java doc [https://eclipse.github.io/keyple-distributed-remote-java-api/](https://eclipse.github.io/keyple-distributed-remote-java-api/)
+                    -   Java code [https://github.com/eclipse/keyple-distributed-remote-java-api](https://github.com/eclipse/keyple-distributed-remote-java-api)
+                -   lib
+                    -   Java doc [https://eclipse.github.io/keyple-distributed-remote-java-lib/](https://eclipse.github.io/keyple-distributed-remote-java-lib/)
+                    -   Java code [https://github.com/eclipse/keyple-distributed-remote-java-lib](https://github.com/eclipse/keyple-distributed-remote-java-lib)
+            -   for terminal interfaced with a local reader
                 -   info [https://keyple.org/components-java/distributed/keyple-distributed-local-java-lib/](https://keyple.org/components-java/distributed/keyple-distributed-local-java-lib/)
+                -   API
+                    -   Java doc [https://eclipse.github.io/keyple-distributed-local-java-api/](https://eclipse.github.io/keyple-distributed-local-java-api/)
+                    -   Java code [https://github.com/eclipse/keyple-distributed-local-java-api](https://github.com/eclipse/keyple-distributed-local-java-api)
+                -   lib
+                    -   Java doc [https://eclipse.github.io/keyple-distributed-local-java-lib/](https://eclipse.github.io/keyple-distributed-local-java-lib/)
+                    -   Java code [https://github.com/eclipse/keyple-distributed-local-java-lib](https://github.com/eclipse/keyple-distributed-local-java-lib)
             -   common lib for network messaging
-                -   code [https://github.com/eclipse/keyple-distributed-network-java-lib](https://github.com/eclipse/keyple-distributed-network-java-lib)
-                -   doc [https://eclipse.github.io/keyple-distributed-network-java-lib/](https://eclipse.github.io/keyple-distributed-network-java-lib/)
                 -   info [https://keyple.org/components-java/distributed/keyple-distributed-network-java-lib/](https://keyple.org/components-java/distributed/keyple-distributed-network-java-lib/)
+                -   doc [https://eclipse.github.io/keyple-distributed-network-java-lib/](https://eclipse.github.io/keyple-distributed-network-java-lib/)
+                -   code [https://github.com/eclipse/keyple-distributed-network-java-lib](https://github.com/eclipse/keyple-distributed-network-java-lib)
         -   Card solution extensions:
             -   Generic card example of card extension implementation to operate a "generic" smart card solution using low-level APDU commandscommunication
-                -   code [https://github.com/eclipse/keyple-card-generic-java-lib](https://github.com/eclipse/keyple-card-generic-java-lib)
-                -   doc [https://eclipse.github.io/keyple-card-generic-java-lib/](https://eclipse.github.io/keyple-card-generic-java-lib/)
                 -   info [https://keyple.org/components-java/card-extensions/keyple-card-generic-java-lib/](https://keyple.org/components-java/card-extensions/keyple-card-generic-java-lib/)
+                -   Java doc [https://eclipse.github.io/keyple-card-generic-java-lib/](https://eclipse.github.io/keyple-card-generic-java-lib/)
+                -   Java code [https://github.com/eclipse/keyple-card-generic-java-lib](https://github.com/eclipse/keyple-card-generic-java-lib)
+                -   C++ doc [https://eclipse.github.io/keyple-card-generic-cpp-lib/](https://eclipse.github.io/keyple-card-generic-cpp-lib/)
+                -   C++ code [https://github.com/eclipse/keyple-card-generic-cpp-lib](https://github.com/eclipse/keyple-card-generic-cpp-lib)
             -   **Calypso card** library to manage Calypso processing on a terminal (implementation of the Calypso API)
-                -   code [https://github.com/eclipse/keyple-card-calypso-java-lib](https://github.com/eclipse/keyple-card-calypso-java-lib)
-                -   doc [https://eclipse.github.io/keyple-card-calypso-java-lib/](https://eclipse.github.io/keyple-card-calypso-java-lib/)
                 -   info [https://keyple.org/components-java/card-extensions/keyple-card-calypso-java-lib/](https://keyple.org/components-java/card-extensions/keyple-card-calypso-java-lib/)
+                -   Java doc [https://eclipse.github.io/keyple-card-calypso-java-lib/](https://eclipse.github.io/keyple-card-calypso-java-lib/)
+                -   Java code [https://github.com/eclipse/keyple-card-calypso-java-lib](https://github.com/eclipse/keyple-card-calypso-java-lib)
+                -   C++ doc [https://eclipse.github.io/keyple-card-calypso-cpp-lib/](https://eclipse.github.io/keyple-card-calypso-cpp-lib/)
+                -   C++ code [https://github.com/eclipse/keyple-card-calypso-cpp-lib](https://github.com/eclipse/keyple-card-calypso-cpp-lib)
         -   Plugins for "standardized" smartcard reader solutions:
             -   PC/SC (Windows/Linux/MacOS)
-                -   code [https://github.com/eclipse/keyple-plugin-pcsc-java-lib](https://github.com/eclipse/keyple-plugin-pcsc-java-lib)
-                -   doc [https://eclipse.github.io/keyple-plugin-pcsc-java-lib/](https://eclipse.github.io/keyple-plugin-pcsc-java-lib/)
                 -   info [https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-pcsc-java-lib/](https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-pcsc-java-lib/)
+                -   Java doc [https://eclipse.github.io/keyple-plugin-pcsc-java-lib/](https://eclipse.github.io/keyple-plugin-pcsc-java-lib/)
+                -   Java code [https://github.com/eclipse/keyple-plugin-pcsc-java-lib](https://github.com/eclipse/keyple-plugin-pcsc-java-lib)
+                -   C++ doc [https://eclipse.github.io/keyple-plugin-pcsc-cpp-lib/](https://eclipse.github.io/keyple-plugin-pcsc-cpp-lib/)
+                -   C++ code [https://github.com/eclipse/keyple-plugin-pcsc-cpp-lib](https://github.com/eclipse/keyple-plugin-pcsc-cpp-lib)
             -   Android OMAPI - to interface an 'internal' Secure Element in an Android device
-                -   code [https://github.com/eclipse/keyple-plugin-android-omapi-java-lib](https://github.com/eclipse/keyple-plugin-android-omapi-java-lib)
-                -   doc [https://eclipse.github.io/keyple-plugin-pcsc-java-lib/](https://eclipse.github.io/keyple-plugin-pcsc-java-lib/)
                 -   info [https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-android-omapi-java-lib/](https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-android-omapi-java-lib/)
+                -   Koltin doc [https://eclipse.github.io/keyple-plugin-pcsc-java-lib/](https://eclipse.github.io/keyple-plugin-pcsc-java-lib/)
+                -   Koltin code [https://github.com/eclipse/keyple-plugin-android-omapi-java-lib](https://github.com/eclipse/keyple-plugin-android-omapi-java-lib)
             -   Android NFC - to interface an "external" Secure Element with an Android device (using NFC Reader mode)
-                -   code [https://github.com/eclipse/keyple-plugin-android-nfc-java-lib](https://github.com/eclipse/keyple-plugin-android-nfc-java-lib)
-                -   doc [https://eclipse.github.io/keyple-plugin-android-nfc-java-lib/](https://eclipse.github.io/keyple-plugin-android-nfc-java-lib/)
                 -   info [https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-android-nfc-java-lib/](https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-android-nfc-java-lib/)
+                -   Kotlin doc [https://eclipse.github.io/keyple-plugin-android-nfc-java-lib/](https://eclipse.github.io/keyple-plugin-android-nfc-java-lib/)
+                -   Kotlin code [https://github.com/eclipse/keyple-plugin-android-nfc-java-lib](https://github.com/eclipse/keyple-plugin-android-nfc-java-lib)
             -   Reader emulation - for testing without hardware solution
-                -   code [https://github.com/eclipse/keyple-plugin-stub-java-lib](https://github.com/eclipse/keyple-plugin-stub-java-lib)
-                -   doc [https://eclipse.github.io/keyple-plugin-stub-java-lib/](https://eclipse.github.io/keyple-plugin-stub-java-lib/)
                 -   info [https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-stub-java-lib/](https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-stub-java-lib/)
--   Cpp implementation
-    -   until version 0.9.0, single repository [https://github.com/eclipse/keyple-cpp](https://github.com/eclipse/keyple-cpp) (archived repository)
-    -   info [https://keyple.org/components-cpp-0.9/](https://keyple.org/components-cpp-0.9/)
+                -   Java doc [https://eclipse.github.io/keyple-plugin-stub-java-lib/](https://eclipse.github.io/keyple-plugin-stub-java-lib/)
+                -   Java code [https://github.com/eclipse/keyple-plugin-stub-java-lib](https://github.com/eclipse/keyple-plugin-stub-java-lib)
+                -   C++ doc [https://eclipse.github.io/keyple-plugin-stub-cpp-lib/](https://eclipse.github.io/keyple-plugin-stub-cpp-lib/)
+                -   C++ code [https://github.com/eclipse/keyple-plugin-stub-cpp-lib](https://github.com/eclipse/keyple-plugin-stub-cpp-lib)
+-   Deprecated components before version 2.x (a single repository per language):
+    -   Java info until version 1.0.0 [https://keyple.org/components-java-1.0/](https://keyple.org/components-java-1.0/)
+    -   Java code until version 1.0.0 [https://github.com/eclipse/keyple-java](https://github.com/eclipse/keyple-java) (archived repository)
+    -   C++ info until version 0.9.0 [https://keyple.org/components-cpp-0.9/](https://keyple.org/components-cpp-0.9/)
+    -   C++ code until version 0.9.0 [https://github.com/eclipse/keyple-cpp](https://github.com/eclipse/keyple-cpp) (archived repository)
+
 
 Please check the individual repositories for instructions for building and contributing.
 
