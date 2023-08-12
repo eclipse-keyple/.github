@@ -5,7 +5,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
  - Keyple offers Java and C++ libraries to build ticketing terminals operating smart cards.
  - The Eclipse Keypop project (https://keypop.org/) provides Java and C++ code of the ticketing terminal APIs implemented by Keyple.
 
-# Keyple component repositories for Java and C++ implementations
+## Keyple component repositories for Java and C++ implementations
 
 <table>
 	<tbody>
@@ -207,11 +207,11 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 	</tbody>
 </table>
 
-# External repositories of Keypop API implemented by Keyple
+## External repositories of Keypop API implemented by Keyple
 
 Keypop repositories are listed in the [GitHub organization of the Eclipse Keypop](https://github.com/eclipse-keypop#keypop-component-repositories-for-java-and-c-implementations) project.
 
-# Keyple project support repositories
+## Keyple project support repositories
 
 <table>
 	<tbody>
@@ -248,13 +248,13 @@ Keypop repositories are listed in the [GitHub organization of the Eclipse Keypop
 	</tbody>
 </table>
 
-# Repositories of older, no-longer-maintained versions of Keyple
+## Repositories of older, no-longer-maintained versions of Keyple
 
 <table>
 	<tbody>
 		<tr>
-			<th scope="col" colspan="2">Deprecated elements</th>
-			<th scope="col">Archived repository</th>
+			<th scope="col" colspan="2">$\text{\color{red}Deprecated}$ elements</th>
+			<th scope="col">$\text{\color{red}Archived}$ repository</th>
 		</tr>
 		<tr>
 			<td rowspan="2">Keyple elements from version 0.7 to 1.0</td>
