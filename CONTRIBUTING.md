@@ -1,35 +1,43 @@
-# Contributing to Eclipse Keyple
+# Contributing to 'Eclipse Keyple'
 
-Thanks for your interest in this project.
+**Welcome to the Eclipse Keyple Community!**
 
-## Project description
+We are thrilled to have you onboard and look forward to your contributions. Whether you're a coder, designer, 
+documenter, or enthusiast, your involvement is invaluable to us. Here's how you can start contributing to Eclipse 
+Keyple:
 
-Eclipse Keyple is a project containing all the content of the Eclipse Keyple project. 
+## Quick Start
 
-* https://github.com/eclipse/keyple
+1. **Read the Contribution Guidelines**: Before starting, please visit our detailed contributing guide at the
+[Eclipse Keypop Contribution Guide](https://keyple.org/community/contributing/). 
+This guide covers all the necessary information about contributing to the project.
 
-## Developer resources
+2. **Join the mailing list**: Connect with other contributors on our 
+[mailing list](https://accounts.eclipse.org/mailing-list/keyple-dev/). 
+It's a great place to ask questions, share ideas, and collaborate.
 
-The project maintains the following source code repositories
+3. **Explore Open Issues**: Check out the issues tab in our GitHub repository.
 
-* https://github.com/eclipse/keyple
-* https://github.com/eclipse/keyple-website
-* https://github.com/eclipse/keyple-java
-* https://github.com/eclipse/keyple-cpp
-* https://github.com/eclipse/keyple-ops
+## How to Contribute
 
-## Eclipse Contributor Agreement
+- **Code**: Submit pull requests with bug fixes, new features, and improvements. Make sure to follow the code style and 
+testing guidelines.
 
-Before your contribution can be accepted by the project team contributors must
-electronically sign the Eclipse Contributor Agreement (ECA).
+- **Documentation**: Help us improve our documentation by fixing errors, adding examples, or writing tutorials.
 
-* http://www.eclipse.org/legal/ECA.php
+- **Feedback**: Share your experience using Eclipse Keyple. Feedback on usability, features, and your overall experience 
+is incredibly valuable.
 
-Commits that are provided by non-committers must have a Signed-off-by field in
-the footer indicating that the author is aware of the terms by which the
-contribution has been provided to the project. The non-committer must
-additionally have an Eclipse Foundation account and must have a signed Eclipse
-Contributor Agreement (ECA) on file.
+- **Community Support**: Answer questions on the community forums, help with user support, and participate in 
+discussions.
 
-For more information, please see the Eclipse Committer Handbook:
-https://www.eclipse.org/projects/handbook/#resources-commit
+## Need Help?
+
+If you have any questions or need assistance, please reach out on the 
+[mailing list](https://accounts.eclipse.org/mailing-list/keyple-dev/).
+
+---
+
+_Your contribution is the key to the success of Eclipse Keyple. Let's build something amazing together!_
+
+---
