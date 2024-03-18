@@ -221,7 +221,7 @@ Keypop repositories are listed in the [GitHub organization of the Eclipse Keypop
 		</tr>
 		<tr>
 			<td colspan="2">Project website https://keyple.org/</td>
-			<td><a href="https://github.com/eclipse-keypop/keypop-website">keypop-website</a></td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-website">keyple-website</a></td>
 		</tr>
 		<tr>
 			<td colspan="2">Meta scripts for C++ components' download & build</td>
