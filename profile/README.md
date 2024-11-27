@@ -7,6 +7,18 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 
 ## Keyple component repositories for Java and C++ implementations
 
+<style>
+    .hachured {
+        background-image: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 5px,
+        rgba(0, 0, 0, 0.1) 5px,
+        rgba(0, 0, 0, 0.1) 10px
+        );
+        color: black;
+    }
+</style>
 <table>
 	<tbody>
 		<tr>
@@ -31,8 +43,8 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-service-java-lib/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-service-cpp-lib/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-service-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-service-cpp-lib/">C++ Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="SPI to be implemented by plugins of smart card reader solution">Plugin API</span></td>
@@ -43,8 +55,8 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-plugin-java-api/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-plugin-cpp-api/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-java-api/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-cpp-api/">C++ Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="references shared by Keyple components">Common API</span></td>
@@ -55,8 +67,8 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-common-java-api/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-common-cpp-api/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-common-java-api/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-common-cpp-api/">C++ Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="helper functions">Util Lib</span></td>
@@ -67,21 +79,31 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-util-java-lib/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-util-cpp-lib/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-util-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-util-cpp-lib/">C++ Doc</a></td>
 		</tr>
 		<tr>
-			<td rowspan="2">Card resource<br/>manager extension</td>
+			<td rowspan="4">Card resource<br/>manager extension</td>
 			<td rowspan="2">Service Resource Lib</td>
-			<td rowspan="2"><a href="https://keyple.org/components-java/core/keyple-service-resource-java-lib/">Service Resource guide</a></td>
+			<td rowspan="4"><a href="https://keyple.org/components-java/core/keyple-service-resource-java-lib/">Service Resource guide</a></td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-service-resource-java-lib">keyple-service-resource-java-lib</a></td>
 			<td><a href="https://github.com/eclipse-keyple/keyple-service-resource-cpp-lib">keyple-service-resource-cpp-lib</a></td>
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-service-resource-java-lib/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-service-resource-cpp-lib/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-service-resource-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-service-resource-cpp-lib/">C++ Doc</a></td>
+		</tr>
+		<tr>
+			<td rowspan="2">Plugin Resource Lib</td>
+			<th scope="rowgroup">Repository</th>
+			<td><a href="https://github.com/eclipse-keyple/keyple-service-resource-java-lib">keyple-plugin-cardresource-java-lib</a></td>
+			<td rowspan="2" class="hachured"></td>
+		</tr>
+		<tr>
+			<th scope="rowgroup">API doc</th>
+			<td><a href="https://docs.keyple.org/keyple-plugin-cardresource-java-lib/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="10">Distributed module<br/>extension</td>
@@ -89,11 +111,11 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td rowspan="4"><a href="https://keyple.org/components-java/distributed/keyple-distributed-remote-java-lib/">Distributed Remote guide</a></td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-distributed-remote-java-api">keyple-distributed-remote-java-api</a></td>
-			<td rowspan="10"></td>
+			<td rowspan="10" class="hachured"></td>
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-distributed-remote-java-api/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-distributed-remote-java-api/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="distributed module for terminal operating a remote reader">Distributed Remote Lib</span></td>
@@ -102,7 +124,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-distributed-remote-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-distributed-remote-java-lib/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="distributed module for terminal interfaced with a local reader">Distributed Local API</span></td>
@@ -112,7 +134,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-distributed-local-java-api/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-distributed-local-java-api/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="distributed module for terminal interfaced with a local reader">Distributed Local Lib</span></td>
@@ -121,7 +143,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-distributed-local-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-distributed-local-java-lib/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="common library for network messaging">Distributed Network Lib</span></td>
@@ -131,7 +153,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-distributed-network-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-distributed-network-java-lib/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="4">Card solution<br/>extension</td>
@@ -143,8 +165,8 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-card-generic-java-lib/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-card-generic-cpp-lib/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-card-generic-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-card-generic-cpp-lib/">C++ Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="library to manage Calypso processing on a terminal, implements the Card API &amp; Calypso APIs from Keypop">Calypso Card Lib</span></td>
@@ -155,8 +177,8 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-card-calypso-java-lib/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-card-calypso-cpp-lib/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-card-calypso-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-card-calypso-cpp-lib/">C++ Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="8">Plugin extension<br/>for standardized<br/>reader solutions</td>
@@ -168,8 +190,8 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-plugin-stub-java-lib/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-plugin-stub-cpp-lib/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-stub-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-stub-cpp-lib/">C++ Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="to interface PC/SC reader on Windows / Linux / MacOS">PC/SC Plugin Lib</span></td>
@@ -180,19 +202,19 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-plugin-pcsc-java-lib/">UML &amp; Java Doc</a></td>
-			<td><a href="https://eclipse-keyple.github.io/keyple-plugin-pcsc-cpp-lib/">C++ Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-pcsc-java-lib/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-pcsc-cpp-lib/">C++ Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="to interface an ‘external’ Secure Element with an Android device (using NFC Reader mode)">Android NFC Lib</span></td>
 			<td rowspan="2"><a href="https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-android-nfc-java-lib/">Android NFC guide</a></td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-android-nfc-java-lib">keyple-plugin-android-nfc-java-lib</a></td>
-			<td rowspan="4"></td>
+			<td rowspan="4" class="hachured"></td>
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-plugin-android-nfc-java-lib/">UML &amp; Kotlin Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-android-nfc-java-lib/">UML &amp; Kotlin Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="to interface an 'internal' Secure Element in an Android device">Android OMAPI Lib</span></td>
@@ -202,7 +224,32 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://eclipse-keyple.github.io/keyple-plugin-pcsc-java-lib/">UML &amp; Kotlin Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-android-omapi-java-lib/">UML &amp; Kotlin Doc</a></td>
+		</tr>
+	</tbody>
+</table>
+
+## Keyple repositories of support Keyple-less libraries (Keyple Distributed client without Keyple dependency)
+
+<table>
+	<tbody>
+		<tr>
+			<th scope="col">Keyple-less library</th>
+			<th scope="col">Guide</th>
+			<th scope="col">API doc</th>
+			<th scope="col">Repository</th>
+		</tr>
+		<tr>
+			<td>Keyple-less NFC Mobile Reader lib</td>
+			<td></td>
+			<td></td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-less-reader-nfcmobile-kmp-lib">keyple-less-reader-nfcmobile-kmp-lib</a></td>
+		</tr>
+		<tr>
+			<td>Keyple-less Distributed JSON client lib</td>
+			<td></td>
+			<td></td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-less-distributed-client-kmp-lib">keyple-less-keyple-less-distributed-client-kmp-lib</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -220,8 +267,13 @@ Keypop repositories are listed in the [GitHub organization of the Eclipse Keypop
 			<th scope="col">Repository</th>
 		</tr>
 		<tr>
-			<td colspan="2">Project website https://keyple.org/</td>
+			<td rowspan="2">Project websites</td>
+			<td>main https://keyple.org/</td>
 			<td><a href="https://github.com/eclipse-keyple/keyple-website">keyple-website</a></td>
+		</tr>
+		<tr>
+			<td>API docs https://docs.keyple.org/</td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-api-docs">keyple-api-docs</a></td>
 		</tr>
 		<tr>
 			<td colspan="2">Meta scripts for C++ components' download & build</td>
@@ -237,7 +289,11 @@ Keypop repositories are listed in the [GitHub organization of the Eclipse Keypop
 			<td><a href="https://github.com/eclipse-keyple/keyple-cpp-example">keyple-cpp-example</a></td>
 		</tr>
 		<tr>
-			<td rowspan="2">Continuous integration</td>
+			<td rowspan="3">Continuous Integration</td>
+			<td>GitHub Actions</td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-actions/">keyple-actions</a></td>
+		</tr>
+		<tr>
 			<td>Jenkins configuration</td>
 			<td><a href="https://github.com/eclipse-keyple/keyple-ops/">keyple-ops</a></td>
 		</tr>
@@ -245,7 +301,7 @@ Keypop repositories are listed in the [GitHub organization of the Eclipse Keypop
 			<td>Java integration tests</td>
 			<td><a href="https://github.com/eclipse-keyple/keyple-integration-java-test">keyple-integration-java-test</a></td>
 		</tr>
-				<tr>
+		<tr>
 			<td rowspan="2">Repository configuration</td>
 			<td>Eclipse-specific</td>
 			<td><a href="https://github.com/eclipse-keyple/.eclipsefdn">.eclipsefdn</a></td>
