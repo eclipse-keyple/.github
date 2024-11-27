@@ -2,8 +2,8 @@
 
 This is the raw GitHub repository referencing all repositories of the Eclipse Keyple project (https://keyple.org/).
 
- - Keyple offers Java and C++ libraries to build ticketing terminals operating smart cards.
- - The Eclipse Keypop project (https://keypop.org/) provides Java and C++ code of the ticketing terminal APIs implemented by Keyple.
+- Keyple offers Java and C++ libraries to build ticketing terminals operating smart cards.
+- The Eclipse Keypop project (https://keypop.org/) provides Java and C++ code of the ticketing terminal APIs implemented by Keyple.
 
 ## Keyple component repositories for Java and C++ implementations
 
@@ -144,7 +144,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td><a href="https://docs.keyple.org/keyple-distributed-network-java-lib/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
-			<td rowspan="4">Card solution<br/>extension</td>
+			<td rowspan="8">Card solution<br/>extension</td>
 			<td rowspan="2"><span title="library to operate a ‘generic’ smart card solution using low-level APDU commandscommunication, implements the Card API from Keypop">Generic Card Lib</span></td>
 			<td rowspan="2"><a href="https://keyple.org/components-java/card-extensions/keyple-card-generic-java-lib/">Generic Card guide</a></td>
 			<th scope="rowgroup">Repository</th>
@@ -157,8 +157,8 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td><a href="https://docs.keyple.org/keyple-card-generic-cpp-lib/">C++ Doc</a></td>
 		</tr>
 		<tr>
-			<td rowspan="2"><span title="library to manage Calypso processing on a terminal, implements the Card API &amp; Calypso APIs from Keypop">Calypso Card Lib</span></td>
-			<td rowspan="2"><a href="https://keyple.org/components-java/card-extensions/keyple-card-calypso-java-lib/">Calypso Card guide</a></td>
+			<td rowspan="2"><span title="library to manage Calypso Card processing on a terminal, implements the Card API &amp; Calypso Card API from Keypop">Calypso Card Lib</span></td>
+			<td rowspan="6"><a href="https://keyple.org/components-java/card-extensions/keyple-card-calypso-java-lib/">Calypso Card guide</a></td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-card-calypso-java-lib">keyple-card-calypso-java-lib</a></td>
 			<td><a href="https://github.com/eclipse-keyple/keyple-card-calypso-cpp-lib">keyple-card-calypso-cpp-lib</a></td>
@@ -167,6 +167,25 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<th scope="rowgroup">API doc</th>
 			<td><a href="https://docs.keyple.org/keyple-card-calypso-java-lib/">UML &amp; Java Doc</a></td>
 			<td><a href="https://docs.keyple.org/keyple-card-calypso-cpp-lib/">C++ Doc</a></td>
+		</tr>
+		<tr>
+			<td rowspan="2"><span title="library to manage Calypso Legacy SAM processing on a terminal, implements the Card API &amp; Calypso Legacy SAM cryptographic API from Keypop">Calypso Legacy SAM Lib</span></td>
+			<th scope="rowgroup">Repository</th>
+			<td><a href="https://github.com/eclipse-keyple/keyple-card-calypso-crypto-legacysam-java-lib">keyple-card-calypso-crypto-legacysam-java-lib</a></td>
+			<td rowspan="4"></td>
+		</tr>
+		<tr>
+			<th scope="rowgroup">API doc</th>
+			<td><a href="https://docs.keyple.org/keyple-card-calypso-crypto-legacysam-java-lib/">UML &amp; Java Doc</a></td>
+		</tr>
+		<tr>
+			<td rowspan="2"><span title="library to manage Calypso PKI processing on a terminal, implements the Calypso PKI cryptographic API from Keypop">Calypso PKI Cryptography Lib</span></td>
+			<th scope="rowgroup">Repository</th>
+			<td><a href="https://github.com/eclipse-keyple/keyple-card-calypso-crypto-pki-java-lib">keyple-card-calypso-crypto-pki-java-lib</a></td>
+		</tr>
+		<tr>
+			<th scope="rowgroup">API doc</th>
+			<td><a href="https://docs.keyple.org/keyple-card-calypso-crypto-pki-java-lib/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
 			<td rowspan="8">Plugin extension<br/>for standardized<br/>reader solutions</td>
