@@ -7,18 +7,6 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 
 ## Keyple component repositories for Java and C++ implementations
 
-<style>
-    .hachured {
-        background-image: repeating-linear-gradient(
-        45deg,
-        transparent,
-        transparent 5px,
-        rgba(0, 0, 0, 0.1) 5px,
-        rgba(0, 0, 0, 0.1) 10px
-        );
-        color: black;
-    }
-</style>
 <table>
 	<tbody>
 		<tr>
@@ -99,7 +87,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td rowspan="2">Plugin Resource Lib</td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-service-resource-java-lib">keyple-plugin-cardresource-java-lib</a></td>
-			<td rowspan="2" class="hachured"></td>
+			<td rowspan="2"></td>
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
@@ -111,7 +99,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td rowspan="4"><a href="https://keyple.org/components-java/distributed/keyple-distributed-remote-java-lib/">Distributed Remote guide</a></td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-distributed-remote-java-api">keyple-distributed-remote-java-api</a></td>
-			<td rowspan="10" class="hachured"></td>
+			<td rowspan="10"></td>
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
@@ -210,7 +198,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td rowspan="2"><a href="https://keyple.org/components-java/standard-reader-plugins/keyple-plugin-android-nfc-java-lib/">Android NFC guide</a></td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-android-nfc-java-lib">keyple-plugin-android-nfc-java-lib</a></td>
-			<td rowspan="4" class="hachured"></td>
+			<td rowspan="4"></td>
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
