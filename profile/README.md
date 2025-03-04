@@ -94,6 +94,19 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td><a href="https://docs.keyple.org/keyple-plugin-cardresource-java-lib/">UML &amp; Java Doc</a></td>
 		</tr>
 		<tr>
+			<td rowspan="2">Storage Card extension</td>
+			<td rowspan="2">Storage Card Plugin API</td>
+			<td rowspan="2"></td>
+			<th scope="rowgroup">Repository</th>
+			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-storage-card-java-api">keyple-plugin-storage-card-java-api</a></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="rowgroup">API doc</th>
+			<td><a href="https://docs.keyple.org/keyple-plugin-storage-card-java-api/">UML &amp; Java Doc</a></td>
+			<td></td>
+		</tr>
+		<tr>
 			<td rowspan="10">Distributed module<br/>extension</td>
 			<td rowspan="2"><span title="distributed module for terminal operating a remote reader">Distributed Remote API</span></td>
 			<td rowspan="4"><a href="https://keyple.org/components-java/distributed/keyple-distributed-remote-java-lib/">Distributed Remote guide</a></td>
