@@ -236,27 +236,27 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 	</tbody>
 </table>
 
-## Keyple repositories of support Keyple-less libraries (Keyple Distributed client without Keyple dependency)
+## Keyple repositories of support Keyple interoperability libraries (Keyple Distributed client without Keyple dependency)
 
 <table>
 	<tbody>
 		<tr>
-			<th scope="col">Keyple-less library</th>
+			<th scope="col">Keyple interoperability library</th>
 			<th scope="col">Guide</th>
 			<th scope="col">API doc</th>
 			<th scope="col">Repository</th>
 		</tr>
 		<tr>
-			<td>Keyple-less NFC Mobile Reader lib</td>
+			<td>NFC Mobile Local Reader lib</td>
 			<td></td>
 			<td></td>
-			<td><a href="https://github.com/eclipse-keyple/keyple-less-reader-nfcmobile-kmp-lib">keyple-less-reader-nfcmobile-kmp-lib</a></td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-interop-localreader-nfcmobile-kmp-lib">keyple-interop-localreader-nfcmobile-kmp-lib</a></td>
 		</tr>
 		<tr>
-			<td>Keyple-less Distributed JSON client lib</td>
+			<td>Distributed JSON client</td>
 			<td></td>
 			<td></td>
-			<td><a href="https://github.com/eclipse-keyple/keyple-less-distributed-client-kmp-lib">keyple-less-keyple-less-distributed-client-kmp-lib</a></td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-interop-jsonapi-client-kmp-lib">keyple-interop-jsonapi-client-kmp-lib</a></td>
 		</tr>
 	</tbody>
 </table>
