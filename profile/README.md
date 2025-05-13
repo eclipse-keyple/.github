@@ -98,12 +98,12 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td rowspan="2">Storage Card Plugin API</td>
 			<td rowspan="2"></td>
 			<th scope="rowgroup">Repository</th>
-			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-storage-card-java-api">keyple-plugin-storage-card-java-api</a></td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-storagecard-java-api">keyple-plugin-storagecard-java-api</a></td>
 			<td></td>
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
-			<td><a href="https://docs.keyple.org/keyple-plugin-storage-card-java-api/">UML &amp; Java Doc</a></td>
+			<td><a href="https://docs.keyple.org/keyple-plugin-storagecard-java-api/">UML &amp; Java Doc</a></td>
 			<td></td>
 		</tr>
 		<tr>
