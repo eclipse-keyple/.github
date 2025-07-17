@@ -22,7 +22,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<th>C++</th>
 		</tr>
 		<tr>
-			<td rowspan="8">Core</td>
+			<td rowspan="10">Core</td>
 			<td rowspan="2"><span title="implements Reader API & Card API from Keypop">Service Lib</span></td>
 			<td rowspan="2"><a href="https://keyple.org/components-java/core/keyple-service-java-lib/">Service guide</a></td>
 			<th scope="rowgroup">Repository</th>
@@ -36,7 +36,7 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="SPI to be implemented by plugins of smart card reader solution">Plugin API</span></td>
-			<td rowspan="2"><a href="https://keyple.org/components-java/core/keyple-plugin-java-api/">Plugin guide</a></td>
+			<td rowspan="4"><a href="https://keyple.org/components-java/core/keyple-plugin-java-api/">Plugin guide</a></td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-java-api">keyple-plugin-java-api</a></td>
 			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-cpp-api">keyple-plugin-cpp-api</a></td>
@@ -45,6 +45,17 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<th scope="rowgroup">API doc</th>
 			<td><a href="https://docs.keyple.org/keyple-plugin-java-api/">UML &amp; Java Doc</a></td>
 			<td><a href="https://docs.keyple.org/keyple-plugin-cpp-api/">C++ Doc</a></td>
+		</tr>
+		<tr>
+			<td rowspan="2">Plugin Storage Card API</td>
+			<th scope="rowgroup">Repository</th>
+			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-storagecard-java-api">keyple-plugin-storagecard-java-api</a></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="rowgroup">API doc</th>
+			<td><a href="https://docs.keyple.org/keyple-plugin-storagecard-java-api/">UML &amp; Java Doc</a></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="references shared by Keyple components">Common API</span></td>
@@ -92,19 +103,6 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 		<tr>
 			<th scope="rowgroup">API doc</th>
 			<td><a href="https://docs.keyple.org/keyple-plugin-cardresource-java-lib/">UML &amp; Java Doc</a></td>
-		</tr>
-		<tr>
-			<td rowspan="2">Storage Card extension</td>
-			<td rowspan="2">Storage Card Plugin API</td>
-			<td rowspan="2"></td>
-			<th scope="rowgroup">Repository</th>
-			<td><a href="https://github.com/eclipse-keyple/keyple-plugin-storagecard-java-api">keyple-plugin-storagecard-java-api</a></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="rowgroup">API doc</th>
-			<td><a href="https://docs.keyple.org/keyple-plugin-storagecard-java-api/">UML &amp; Java Doc</a></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td rowspan="10">Distributed module<br/>extension</td>
@@ -185,11 +183,12 @@ This is the raw GitHub repository referencing all repositories of the Eclipse Ke
 			<td rowspan="2"><span title="library to manage Calypso Legacy SAM processing on a terminal, implements the Card API &amp; Calypso Legacy SAM cryptographic API from Keypop">Calypso Legacy SAM Lib</span></td>
 			<th scope="rowgroup">Repository</th>
 			<td><a href="https://github.com/eclipse-keyple/keyple-card-calypso-crypto-legacysam-java-lib">keyple-card-calypso-crypto-legacysam-java-lib</a></td>
-			<td rowspan="4"></td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-card-calypso-crypto-legacysam-cpp-lib">keyple-card-calypso-crypto-legacysam-cpp-lib</a></td>
 		</tr>
 		<tr>
 			<th scope="rowgroup">API doc</th>
 			<td><a href="https://docs.keyple.org/keyple-card-calypso-crypto-legacysam-java-lib/">UML &amp; Java Doc</a></td>
+			<td rowspan="3"></td>
 		</tr>
 		<tr>
 			<td rowspan="2"><span title="library to manage Calypso PKI processing on a terminal, implements the Calypso PKI cryptographic API from Keypop">Calypso PKI Cryptography Lib</span></td>
@@ -309,13 +308,9 @@ Keypop repositories are listed in the [GitHub organization of the Eclipse Keypop
 			<td><a href="https://github.com/eclipse-keyple/keyple-cpp-example">keyple-cpp-example</a></td>
 		</tr>
 		<tr>
-			<td rowspan="3">Continuous Integration</td>
+			<td rowspan="2">Continuous Integration</td>
 			<td>GitHub Actions</td>
 			<td><a href="https://github.com/eclipse-keyple/keyple-actions/">keyple-actions</a></td>
-		</tr>
-		<tr>
-			<td>Jenkins configuration</td>
-			<td><a href="https://github.com/eclipse-keyple/keyple-ops/">keyple-ops</a></td>
 		</tr>
 		<tr>
 			<td>Java integration tests</td>
@@ -349,6 +344,11 @@ Keypop repositories are listed in the [GitHub organization of the Eclipse Keypop
 		<tr>
 			<td>in C++</td>
 			<td><a href="https://github.com/eclipse-archived/keyple-cpp">keyple-cpp</a></td>
+		</tr>
+		<tr>
+			<td >Continuous Integration</td>
+			<td>Jenkins configuration</td>
+			<td><a href="https://github.com/eclipse-keyple/keyple-ops/">keyple-ops</a></td>
 		</tr>
 	</tbody>
 </table>
